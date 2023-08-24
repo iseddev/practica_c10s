@@ -8,3 +8,20 @@
 body { font-family: Roboto, sans-serif; }
 
 a { text-decoration: none; }
+
+/* Mobile first | Diseño desde 0px hasta 480px */
+
+/* Breakpoint a partir de 481px - Dispositivos móviles pequeños */
+@media screen and (min-width: 481px) {
+  
+}
+
+/* Breakpoint a partir de 769px - Dispositivos móviles garndes | PC pequeñas */
+@media screen and (min-width: 769px) {
+  
+}
+
+/* Breakpoint a partir de 1280px - Dispositivos pantallas grandes */
+@media screen and (min-width: 1280px) {
+  
+}

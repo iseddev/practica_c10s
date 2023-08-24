@@ -1,3 +1,21 @@
+/* 
+COLORS
+#D1891C => Discount bar bg
+#00669F => Blue bg
+#F3F3F3 => Card content bg
+#333333 => Discount and card content font color
+#F3F3F3 => Button font color
+#FFF9F9 => Footer font color
+*/
+
+/* 
+MEDIA QUERIES
+0-480px
+481-768px
+769-1279px
++1280px
+*/
+
 /* Reseteo básico inicial */
 * {
   box-sizing: border-box;
@@ -11,17 +29,17 @@ a { text-decoration: none; }
 
 /* Mobile first | Diseño desde 0px hasta 480px */
 
-/* Breakpoint a partir de 481px - Dispositivos móviles pequeños */
+/* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */
 @media screen and (min-width: 481px) {
   
 }
 
-/* Breakpoint a partir de 769px - Dispositivos móviles garndes | PC pequeñas */
+/* Breakpoint 769px hasta 1279px <=> PC pequeñas | Tablets orientación horizontal */
 @media screen and (min-width: 769px) {
   
 }
 
-/* Breakpoint a partir de 1280px - Dispositivos pantallas grandes */
+/* Breakpoint 1280px y superiores <=> Dispositivos pantallas grandes */
 @media screen and (min-width: 1280px) {
   
 }

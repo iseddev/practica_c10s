@@ -70,6 +70,7 @@ a { text-decoration: none; }
   position: relative;
   width: 100%;
   height: auto;
+  box-shadow: 0 4px 4px rgba(0 0 0 / .25);
 }
 
 .card-bg {
@@ -81,7 +82,6 @@ a { text-decoration: none; }
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1.5rem 1.5rem 0 0;
-  margin-bottom: 6rem;
 }
 
 .card-photo {
@@ -97,6 +97,33 @@ a { text-decoration: none; }
   width: 2rem;
   top: 1rem;
   left: 1rem;
+}
+
+.card-content {
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 6rem 1rem 2.6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.6rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #00669F;
+  color: #F3F3F3;
+  padding: 1rem 3rem;
 }
 
 /* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */

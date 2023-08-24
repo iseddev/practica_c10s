@@ -23,11 +23,42 @@ MEDIA QUERIES
   padding: 0;
 }
 
-body { font-family: Roboto, sans-serif; }
+body {
+  font-family: Roboto, sans-serif;
+  color: #000;
+}
+h1, h2, p, a { font-weight: 400; }
 
 a { text-decoration: none; }
 
 /* Mobile first | Diseño desde 0px hasta 480px */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.discount {
+  width: 100%;
+  height: auto;
+  background-color: #D1891C;
+  padding: .2rem 0;
+  font-size: 1.2rem;
+}
+
+.discount-text { font-size: 1.2rem }
+
+.header {
+  font-size: 1.2rem;
+  color: #FFF;
+  background-color: #00669F;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  margin-bottom: 1.6rem;
+}
+
+.header-title { font-size: 1.8rem; }
 
 /* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */
 @media screen and (min-width: 481px) {

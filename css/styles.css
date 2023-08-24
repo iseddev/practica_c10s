@@ -27,6 +27,12 @@ body {
   font-family: Roboto, sans-serif;
   color: #000;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h1, h2, p, a { font-weight: 400; }
 
 a { text-decoration: none; }
@@ -59,6 +65,39 @@ a { text-decoration: none; }
 }
 
 .header-title { font-size: 1.8rem; }
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.card-bg {
+  position: relative;
+  width: inherit;
+  height: 200px;
+  background-image: url(../img/batman_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem 1.5rem 0 0;
+  margin-bottom: 6rem;
+}
+
+.card-photo {
+  position: absolute;
+  width: 10rem;
+  bottom: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-heart {
+  position: absolute;
+  width: 2rem;
+  top: 1rem;
+  left: 1rem;
+}
 
 /* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */
 @media screen and (min-width: 481px) {

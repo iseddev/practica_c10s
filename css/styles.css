@@ -189,10 +189,13 @@ main { padding-top: 9rem; }
 }
 
 /* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */
-@media screen and (min-width: 481px) { .md-cols-6 { width: 50%; } }
+@media screen and (min-width: 640px) { .md-cols-6 { width: 50%; } }
 
 /* Breakpoint 769px hasta 1399px <=> PC | Tablets orientación horizontal */
-@media screen and (min-width: 769px) { .lg-cols-4 { width: 33.3333%; } }
+@media screen and (min-width: 1024px) { .lg-cols-4 { width: 33.3333%; } }
 
 /* Breakpoint 1280px y superiores <=> Dispositivos pantallas grandes */
-@media screen and (min-width: 1400px) { .xl-cols-3 { width: 25%; } }
+@media screen and (min-width: 1440px) {
+  .container { max-width: 1400px; }
+  .xl-cols-3 { width: 25%; }
+}
